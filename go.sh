@@ -1,3 +1,5 @@
+# This is a helper script to turn simple the common operations with MySQL docker container 
+
 case "$1" in
    "setup") echo "Creating and starting containers..." 
    docker compose up -d
