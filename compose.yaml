@@ -1,0 +1,17 @@
+# Reference for compose file: https://docs.docker.com/compose/compose-file/#compose-file
+name: mysql-advanced-course
+services:
+  db:
+    image: mysql:8.0.29
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345678 # just for dev/study
+      MYSQL_DATABASE: mavenfuzzyfactory
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+      - ./db-setup:/docker-entrypoint-initdb.d
+volumes:
+  db-data:
