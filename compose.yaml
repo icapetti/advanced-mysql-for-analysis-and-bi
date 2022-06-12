@@ -1,4 +1,6 @@
 # Reference for compose file: https://docs.docker.com/compose/compose-file/#compose-file
+# To connect to this instance from another container: 172.17.0.1 (You can check it by calling ifconfig command and get the docker's ip address)
+
 name: mysql-advanced-course
 services:
   db:
