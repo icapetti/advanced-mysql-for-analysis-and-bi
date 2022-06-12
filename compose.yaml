@@ -3,7 +3,7 @@
 
 name: mysql-advanced-course
 services:
-  db:
+  mysql-db:
     image: mysql:8.0.29
     command: --default-authentication-plugin=mysql_native_password
     restart: always
@@ -13,7 +13,22 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - db-data:/var/lib/mysql
+      - db-data:/var/lib/apps/mysql/advanced-course
       - ./.db-setup:/docker-entrypoint-initdb.d
+  metabase-db:
+    image: postgres:14.3-alpine3.16
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 12345678 # just for dev/study
+      POSTGRES_USER: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - db-data:/var/lib/apps/postgresql/metabase
+  metabase:
+    image: metabase/metabase:v0.43.2
+    restart: always
+    ports:
+      - 3000:3000
 volumes:
   db-data:

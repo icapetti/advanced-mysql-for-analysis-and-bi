@@ -22,12 +22,14 @@ When businesses run paid marleting campaigns, they often obsess over performance
 - etc...
 
 Paid traffic is commonly tagged with tracking (UTM) paramters, which are appended to URLs and allows us to tie website activity back to specific traffic sources and campaigns.
-
-## Assignments
-### 01 Finding top traffic sources
-#### Case
+## 01 Finding top traffic sources
+### Case
 We've been live for almost a month now and we're starting to generate sales. Can you help me understand **where the bulk of our website sessions are coming from**, from yesterday?
 I'd like to see a breakdown by **UTM source, campaign and referring domain**. Thanks!
 
-#### What to do
+### What to do
 The objective is to show where the volume of website traffic comes from, that is, where the website sessions come from. That is, we need to build count by TM source, campaign and referring domain and evidence from highest to lowest.
+
+### Results
+- [SQL query](01-top-traffic-sources.sql)
+- ![01-01-Visualization](../../.img/01-01.png)
