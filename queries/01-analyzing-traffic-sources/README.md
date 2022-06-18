@@ -1,6 +1,12 @@
 # Analyzing Traffic Sources
-* Content based on Section 4 of the course Advanced SQL: MySQL Data Analysis & Business Intelligence
+Content based on Section 4 of the course Advanced SQL: MySQL Data Analysis & Business Intelligence
 
+## Index
+
+- [00 Context](#context)
+- [01 Finding top traffic sources](#01-finding-top-traffic-sources)
+- [02 Traffic sources conversion rates](#02-traffic-sources-conversion-rates)
+- [03 Traffic source trending](#03-traffic-source-trending)
 ## Context
 ### Traffic source analysis
 Where your customers are coming from and which channels are driving the highest quality traffic.
@@ -22,6 +28,7 @@ When businesses run paid marleting campaigns, they often obsess over performance
 - etc...
 
 Paid traffic is commonly tagged with tracking (UTM) paramters, which are appended to URLs and allows us to tie website activity back to specific traffic sources and campaigns.
+
 ## 01 Finding top traffic sources
 ### Case
 We've been live for almost a month now and we're starting to generate sales. Can you help me understand **where the bulk of our website sessions are coming from**, from yesterday?
@@ -41,7 +48,8 @@ Sounds like **gsearch nonbrand** is our major traffic source, nut we need to und
 If we are much lower, we'll need to reduce bids. If we are higher, we can increase nids to drive more volume.
 
 ### What to do
-Calculate the conversion rate (CVR). The expected result is something like:
+Structure of the expected result:
+
 | sessions 	| orders 	| session_to_order_conv_rate 	|
 |----------	|--------	|----------------------------	|
 |          	|        	|                            	|
@@ -49,3 +57,18 @@ Calculate the conversion rate (CVR). The expected result is something like:
 ### Results
 ### [SQL query](02-traffic-sources-conversion-rates.sql)
 #### ![01-02-Visualization](../../.img/01-02.png)
+
+## 03 Traffic source trending
+### Case
+We **bid down gsearch nonbrand** on 2012-04-15. Please, pull **gsearch nonbrand trended session volume, by week**, to see if the bid changes have caused volume to drop at all.
+
+### What to do
+Structure of the expected result:
+
+| week_start_date 	| sessions 	|
+|-----------------	|----------	|
+| value           	| value    	|
+
+### Results
+### [SQL query](03-traffic-source-trending.sql)
+#### ![01-02-Visualization](../../.img/01-03.png)

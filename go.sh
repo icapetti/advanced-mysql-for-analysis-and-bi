@@ -1,4 +1,4 @@
-# This is a helper script to turn simple the common operations with MySQL docker container 
+# This is a helper script to turn simple the common operations with the Docker application 
 
 case "$1" in
    "setup") echo "Creating and starting containers..." 
