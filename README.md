@@ -3,8 +3,8 @@ This is a repository dedicated to the [Advanced MySQL for Analysis and BI course
 
 The course is focused on advanced SQL for analysis and business intelligence, as its name suggests, **but I chose to create its own structure to maintain the portability of the course, and can run the queries at any time and even create some dashboards. Thus, outside the scope of the course, a docker application was created to**:
 
-- **Instance MySQL**: Performs the creation of the course database.
-- **Instance Metabase + Postgres**: I can run the diminals produced by the course by Metabase, and thus maintain views and insights. Postgres is the metabase metabase bank.
+- **MySQL Instance**: performs the creation of the MySQL database used in the course.
+- **Metabase + Postgres Instances**: I can run the queries created during the course on Metabase, and thus maintain views and insights. Postgres is the Metabase metadata database.
 
 ![containers-up](./.img/containers.png)
 
