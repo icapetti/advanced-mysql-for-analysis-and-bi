@@ -31,5 +31,21 @@ I'd like to see a breakdown by **UTM source, campaign and referring domain**. Th
 The objective is to show where the volume of website traffic comes from, that is, where the website sessions come from. That is, we need to build count by TM source, campaign and referring domain and evidence from highest to lowest.
 
 ### Results
-- [SQL query](01-top-traffic-sources.sql)
-- ![01-01-Visualization](../../.img/01-01.png)
+#### [SQL query](01-top-traffic-sources.sql)
+### ![01-01-Visualization](../../.img/01-01.png)
+
+## 02 Traffic sources conversion rates
+### Case
+Sounds like **gsearch nonbrand** is our major traffic source, nut we need to understand if those sessions are driving sales. 
+**Calculate the conversion rate (CVR) from session order.** Out **CVR target is at least 4%**, to make the numbers work.
+If we are much lower, we'll need to reduce bids. If we are higher, we can increase nids to drive more volume.
+
+### What to do
+Calculate the conversion rate (CVR). The expected result is something like:
+| sessions 	| orders 	| session_to_order_conv_rate 	|
+|----------	|--------	|----------------------------	|
+|          	|        	|                            	|
+
+### Results
+### [SQL query](02-traffic-sources-conversion-rates.sql)
+#### ![01-02-Visualization](../../.img/01-02.png)
