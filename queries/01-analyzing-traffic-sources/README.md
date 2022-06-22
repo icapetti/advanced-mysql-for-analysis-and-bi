@@ -72,3 +72,17 @@ Structure of the expected result:
 ### Results
 ### [SQL query](03-traffic-source-trending.sql)
 #### ![01-02-Visualization](../../.img/01-03.png)
+
+## 04 Bid optimization for paid traffic
+### Case
+Pull conversion rates from session to order, by device. If desktop performance is better than on mobile we may be able to bid up for desktop specifically to get more volume...
+### What to do
+Structure of the expected result:
+
+| device_type 	| sessions 	| orders 	| session_to_order_conv_rate 	|
+|-------------	|----------	|--------	|----------------------------	|
+| value       	| value    	| value  	| value                      	|
+
+### Results
+### [SQL query](04-bid-optimization-for-paid-traffic.sql)
+#### ![01-02-Visualization](../../.img/01-04.png)
