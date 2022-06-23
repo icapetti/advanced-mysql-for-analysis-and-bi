@@ -7,6 +7,9 @@ Content based on Section 4 of the course Advanced SQL: MySQL Data Analysis & Bus
 - [01 Finding top traffic sources](#01-finding-top-traffic-sources)
 - [02 Traffic sources conversion rates](#02-traffic-sources-conversion-rates)
 - [03 Traffic source trending](#03-traffic-source-trending)
+- [04 Bid Optimization for paid traffic](#04-bid-optimization-for-paid-traffic)
+- [05 Trending with granular segments](#05-trending-with-granular-segments)
+
 ## Context
 ### Traffic source analysis
 Where your customers are coming from and which channels are driving the highest quality traffic.
