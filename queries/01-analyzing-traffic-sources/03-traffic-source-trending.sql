@@ -25,6 +25,8 @@ FROM orders
 GROUP BY 1
 
 -- Assignment solution
+-- We do a GROUP BY by WEEK, but show the week start date instead of the week number. For this, we use MIN(DATE(created_at)).
+-- We count sessions and apply filters. This way we have the count of sessions per week.
 SELECT 
     MIN(DATE(created_at)) AS week_start_date
     , COUNT(DISTINCT website_session_id) AS sessions

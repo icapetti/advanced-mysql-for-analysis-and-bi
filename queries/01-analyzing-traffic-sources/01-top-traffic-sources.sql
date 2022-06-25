@@ -1,3 +1,4 @@
+-- Number of sessions per source, campaign and http referer.
 SELECT 
     utm_source
     ,utm_campaign

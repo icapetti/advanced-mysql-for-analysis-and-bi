@@ -1,5 +1,7 @@
 -- Since we want all in table websessions and just the matches from the table orders, we use a LEFT JOIN
 -- to get the CVR.
+-- We do the general session count and the general order count. To calculate the conversion rate of sessions into orders,
+-- we divide the order count by the session count.
 SELECT 
     COUNT(DISTINCT s.website_session_id) AS sessions
     , COUNT(DISTINCT o.order_id) AS orders

@@ -43,7 +43,8 @@ The objective is to show where the volume of website traffic comes from, that is
 
 ### Results
 #### [SQL query](01-top-traffic-sources.sql)
-### ![01-01-Visualization](../../.img/01-01.png)
+
+#### ![01-01-Visualization](../../.img/01-01.png)
 
 ---
 ## 02 Traffic sources conversion rates

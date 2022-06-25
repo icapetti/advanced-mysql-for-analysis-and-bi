@@ -1,3 +1,4 @@
+-- General session count, order count and conversion rate, only grouped by device type.
 SELECT
     s.device_type
     , COUNT(DISTINCT s.website_session_id) AS sessions
