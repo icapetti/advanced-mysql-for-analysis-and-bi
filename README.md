@@ -29,7 +29,7 @@ Every section has:
 - The results from the SQL code execution on Metabase
 
 ### [01 Traffic source analysis](./queries/01-analyzing-traffic-sources/README.md)
-### [02 Analysing website performance](./queries/02-analysing-website-performance/README.md)
+### [02 Analysing website performance](./queries/02-analyzing-website-performance/README.md)
 ### [03 Mid course project](./queries/03-mid-course-project/README.md)
 ### [04 Analysis for channel portfolio management](./queries/04-analysis-for-channel-portfolio-management/README.md)
 ### [05 Analyzing business patterns and seasonality](./queries/05-analyzing-business-patterns-and-seasonality/README.md)
