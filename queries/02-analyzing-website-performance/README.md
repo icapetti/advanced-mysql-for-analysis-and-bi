@@ -16,7 +16,7 @@ Content based on Section 5 of the course Advanced SQL: MySQL Data Analysis & Bus
 Website content analysis is about understanding which pages are seen the most by your users, to identify where to focus on improving your business. Common use cases:
 - Finding the most-viewed pages that customers view on your website.
 - Identifying the most common entry pages to your website - the first thing a user sees
-- For most-viewed pages and most comm.on entry pages, understanding how those pages perform for your business objectives.
+- For most-viewed pages and most common entry pages, understanding how those pages perform for your business objectives.
 ---
 ## 01 Finding top website pages
 ### Case
@@ -52,3 +52,42 @@ Structure of the expected result:
 ### Results
 ### [SQL query](02-finding-top-entry-pages.sql)
 #### ![01-02-Visualization](../../.img/02-02.png)
+
+---
+## 03 Calculating bounce rates
+### Case
+Since we checked that all of our traffic is landing on the homepage right now we should check how that landing page is performing.
+Pull bounce rates for traffic landing on the homepage, with three numbers: **sessions, bounced sessions and % of sessions which bounced (Bounce Rate).**
+
+Remember:
+- website bounce rate = single-page sessions / total sessions
+- page bounce rate = single-page sessions on the page / total sessions starting from the page
+If 50 users land on your homepage and 2 of them **exit without triggering another request**, the homepage has a bounce rate of 4%.
+- Every bounce is an exit, but not every exit is a bounce.
+
+### What to do
+Structure of the expected result:
+
+| sessions 	| bounced_sessions 	| bounce_rate 	|
+|----------	|------------------	|-------------	|
+| value    	| value            	| value       	|
+
+### Results
+### [SQL query](03-calculating-bounce-rates.sql)
+#### ![01-02-Visualization](../../.img/02-03.png)
+
+---
+## 04 Analyzing landing page tests
+### Case
+
+
+### What to do
+Structure of the expected result:
+
+| sessions 	| bounced_sessions 	| bounce_rate 	|
+|----------	|------------------	|-------------	|
+| value    	| value            	| value       	|
+
+### Results
+### [SQL query](04-analyzing-landing-page-tests.sql)
+#### ![01-02-Visualization](../../.img/02-04.png)

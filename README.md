@@ -28,6 +28,9 @@ Every section has:
 - The SQL code solution
 - The results from the SQL code execution on Metabase
 
+### [00 The database description](.db-setup/README.md)
+Understand the tables and relationships of the database on which we are running these queries.
+
 ### [01 Traffic source analysis](./queries/01-analyzing-traffic-sources/README.md)
 ### [02 Analysing website performance](./queries/02-analyzing-website-performance/README.md)
 ### [03 Mid course project](./queries/03-mid-course-project/README.md)
