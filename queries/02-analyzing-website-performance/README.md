@@ -79,15 +79,33 @@ Structure of the expected result:
 ---
 ## 04 Analyzing landing page tests
 ### Case
+Based on the bouce rate analysis we ran a new custom landing page (/lander-1) in a 50/50 test against the homepage (/home).
 
+**Pull bounce rates for the two groups. Just look at the time period where /lander-1 was getting traffic.**
 
 ### What to do
 Structure of the expected result:
 
-| sessions 	| bounced_sessions 	| bounce_rate 	|
-|----------	|------------------	|-------------	|
-| value    	| value            	| value       	|
+| landing_page 	| total_sessions 	| bounced_sessions 	| bounce_rate 	|
+|--------------	|----------------	|------------------	|-------------	|
+| value        	| value          	| value            	| value       	|
 
 ### Results
 ### [SQL query](04-analyzing-landing-page-tests.sql)
 #### ![01-02-Visualization](../../.img/02-04.png)
+
+---
+## 05 Landing page trend analysis
+### Case
+Pull the volume of paid search nonbrand traffic landing on /home and /lander-1, trended weekly since June 1st, to confirm if the traffic is all routed correctly. Pull our overall paid search bounce rate trended weekly, to make sure the lander change has improved the overall picture.
+
+### What to do
+Structure of the expected result:
+
+| week_start_date 	| bounce_rate 	| home_sessions 	| lander_sessions 	|
+|-----------------	|-------------	|---------------	|-----------------	|
+| value           	| value       	| value         	| value           	|
+
+### Results
+### [SQL query](05-landing-page-trend-analysis.sql)
+#### ![01-02-Visualization](../../.img/02-05.png)
