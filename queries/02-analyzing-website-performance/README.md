@@ -141,14 +141,16 @@ Structure of the expected result:
 ---
 ## 07 Analyzing conversion funnel tests
 ### Case
+We tested an updated billing page based on your funnel analysis. Can you take a look and see whether /billing-2 is doing any better than the original /billing?
 
+We're wondering what % of sessions on those pages end up placing an order. FYI - we run this test for all traffic, not just for our search visitors.
 
 ### What to do
 Structure of the expected result:
 
-| week_start_date 	| bounce_rate 	| home_sessions 	| lander_sessions 	|
-|-----------------	|-------------	|---------------	|-----------------	|
-| value           	| value       	| value         	| value           	|
+| billing_version_seen 	| sessions 	| orders 	| billint_to_order_rt 	|
+|----------------------	|----------	|--------	|---------------------	|
+| value                	| value    	| value  	| value               	|
 
 ### Results
 ### [SQL query](07-analyzing-conversion-funnel-tests.sql)
