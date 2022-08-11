@@ -12,7 +12,7 @@ Extract and analyze website traffic and performance data from the Maven Fuzzy Fa
 ## CEO questions
 1 Gsearch seems to be the biggest driver of our business. Could you pull monthly trends for gsearch sessions and orders so that we can showcase the growth there?
 
-2 Next, it would be great to sse a similar monthly trend for Gsearch, but this time splitting out nonbrand and brand campaigns separately. I am wondering if brand is picking up at all. If so, this is a good story to tell.
+2 Next, it would be great to see a similar monthly trend for Gsearch, but this time splitting out nonbrand and brand campaigns separately. I am wondering if brand is picking up at all. If so, this is a good story to tell.
 
 3 While we're on Gsearch, could you dive into nobrand, and pull monthly sessions and orders split by device type? I want to flex out analytical muscles a little and show the board we really know our traffic sources.
 
