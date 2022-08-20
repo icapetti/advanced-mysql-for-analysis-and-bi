@@ -34,8 +34,8 @@ Understand the tables and relationships of the database on which we are running 
 ### [01 Traffic source analysis](./queries/01-analyzing-traffic-sources/README.md)
 ### [02 Analysing website performance](./queries/02-analyzing-website-performance/README.md)
 ### [03 Mid course project](./queries/03-mid-course-project/README.md)
-### [04 Analysis for channel portfolio management](./queries/04-analysis-for-channel-portfolio-management/README.md)
+<!-- ### [04 Analysis for channel portfolio management](./queries/04-analysis-for-channel-portfolio-management/README.md)
 ### [05 Analyzing business patterns and seasonality](./queries/05-analyzing-business-patterns-and-seasonality/README.md)
 ### [06 Product analysis](./queries/06-product-analysis/README.md)
 ### [07 User analysis](./queries/07-user-analysis/README.md)
-### [08 Final project](./queries/08-final-project/README.md)
+### [08 Final project](./queries/08-final-project/README.md) -->
