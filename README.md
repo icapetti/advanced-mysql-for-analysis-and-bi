@@ -9,6 +9,8 @@ The course is focused on advanced SQL for analysis and business intelligence, as
 - **MySQL Instance**: performs the creation of the MySQL database used in the course.
 - **Metabase + Postgres Instances**: I can run the queries created during the course on Metabase, and thus maintain views and insights. Postgres is the Metabase metadata database.
 
+![compose](./.img/compose.png)
+
 ![containers-up](./.img/containers.png)
 
 The entire Docker application is structured in the [compose.yaml](compose.yaml) file.
